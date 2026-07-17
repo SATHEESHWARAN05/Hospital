@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# FastAPI / SQLAlchemy runtime
+*.db
+*.sqlite3
+hospital_fd.db
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Local environment files
+.env.local
